@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import node from "@astrojs/node";
 import react from "@astrojs/react";
 import emdash, { local } from "emdash/astro";
 import { sqlite } from "emdash/db";
