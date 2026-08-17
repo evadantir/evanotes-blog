@@ -1,8 +1,8 @@
 {
-	"name": "my-site",
+	"name": "evanotes-blog",
 	"compatibility_date": "2026-02-24",
 	"compatibility_flags": ["nodejs_compat"],
-	"assets": { "directory": "./dist" },
+  "$schema": "node_modules/wrangler/config-schema.json",
 	"d1_databases": [
 		{
 			"binding": "DB",
@@ -15,4 +15,19 @@
 			"bucket_name": "evanotes-bucket",
 		},
 	],
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+}
 }
