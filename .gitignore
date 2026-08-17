@@ -64,3 +64,15 @@ package-lock.json
 .eslintcache
 *v8.log
 /lib/
+
+dist
+.astro
+uploads
+data.db
+
+# Environment / Wrangler secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
