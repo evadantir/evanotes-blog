@@ -2,8 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "astro/tsconfigs/base",
 	"compilerOptions": {
-		"types": ["node"]
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      },
+    ],
 	},
-  "exclude": ["${configDir}/dist"],
-  "include": ["${configDir}/.astro/types.d.ts", "${configDir}/**/*"]
+  "exclude": ["dist"],
+  "include": ["src", ".astro/types.d.ts", "emdash-env.d.ts"],
 }
