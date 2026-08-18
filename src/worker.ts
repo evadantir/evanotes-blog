@@ -1,8 +1,9 @@
 import type { ExportedHandler } from "@cloudflare/workers-types";
 import handler, {
   createScheduledHandler,
-  PluginBridge,
+  PluginBridge
 } from "@emdash-cms/cloudflare/worker";
+// import { env } from 'cloudflare:workers';
 
 export { PluginBridge };
 
