@@ -5,5 +5,5 @@
 		"types": ["node"]
 	},
   "exclude": ["${configDir}/dist"],
-  "include": ["${configDir}/.astro/types.d.ts", "${configDir}/**/*"]
+  "include": ["src", ".astro/types.d.ts", "emdash-env.d.ts"]
 }
