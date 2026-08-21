@@ -31,15 +31,15 @@ const { tags, class: className } = Astro.props;
     display: inline-block;
     padding: var(--tag-padding-y) var(--spacing-3);
     font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
-    background: var(--color-surface);
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 12%, var(--color-surface));
     border-radius: var(--radius);
     text-decoration: none;
     transition: color var(--transition-fast), background var(--transition-fast);
   }
 
   .tag:hover {
-    color: var(--color-text);
-    background: var(--color-border);
+    color: var(--color-on-accent);
+    background: var(--color-accent-hover);
   }
 </style>
