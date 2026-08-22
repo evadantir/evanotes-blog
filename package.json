@@ -2,6 +2,7 @@
   "name": "evanotes-blog",
   "description": "",
   "emdash": {
+    "label": "Eva Notes",
     "seed": "seed/seed.json"
   },
   "scripts": {
@@ -16,13 +17,12 @@
     "url": "git+https://github.com/evadantir/evanotes-blog.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "evadantir",
   "license": "ISC",
   "type": "module",
   "bugs": {
     "url": "https://github.com/evadantir/evanotes-blog/issues"
   },
-  "homepage": "https://github.com/evadantir/evanotes-blog#readme",
   "dependencies": {
     "@astrojs/cloudflare": "^14.2.1",
     "@astrojs/react": "^6.0.2",

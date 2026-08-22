@@ -2,13 +2,13 @@
 	"$schema": "https://emdashcms.com/seed.schema.json",
 	"version": "1",
 	"meta": {
-		"name": "Blog Starter",
+		"name": "Eva Notes",
 		"description": "A blog with posts and pages",
-		"author": "EmDash"
+		"author": "evadantir"
 	},
 	"settings": {
-		"title": "My Blog",
-		"tagline": "Thoughts on building for the web"
+		"title": "Eva Notes",
+		"tagline": "My thoughts on building for the web"
 	},
 	"collections": [
 		{
