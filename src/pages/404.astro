@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import "./404.css";
 ---
 
 <Base title="Page not found">
@@ -10,24 +11,3 @@ import Base from "../layouts/Base.astro";
 	</div>
 </Base>
 
-<style>
-	.not-found {
-		text-align: center;
-		padding: var(--spacing-24) var(--spacing-6);
-	}
-
-	.not-found h1 {
-		font-size: var(--font-size-5xl);
-		margin-bottom: var(--spacing-2);
-		color: var(--color-border);
-	}
-
-	.not-found p {
-		color: var(--color-muted);
-		margin-bottom: var(--spacing-6);
-	}
-
-	.not-found a {
-		color: var(--color-text);
-	}
-</style>

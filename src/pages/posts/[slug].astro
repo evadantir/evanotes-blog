@@ -17,6 +17,7 @@ import Base from "../../layouts/Base.astro";
 import PostCard from "../../components/PostCard.astro";
 import { getReadingTime } from "../../utils/reading-time";
 import { resolveBlogSiteIdentity } from "../../utils/site-identity";
+import "./post.css";
 
 const slug = decodeSlug(Astro.params.slug);
 
@@ -343,7 +344,7 @@ const publishDate =
 	</script>
 </Base>
 
-<style>
+<!--
 	/* Article container */
 	.article {
 		max-width: var(--wide-width);
@@ -962,4 +963,4 @@ const publishDate =
 			grid-template-columns: 1fr;
 		}
 	}
-</style>
+-->

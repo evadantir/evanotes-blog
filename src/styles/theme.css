@@ -38,6 +38,7 @@
   --color-accent: light-dark(#9e3f70, #ef73b1);
   --color-accent-hover: light-dark(#7e2f58, #f282b9);
   --color-on-accent: light-dark(#ffffff, #121212);
+  --font-body: "Plus Jakarta Sans"
 }
 
 .nav-admin {
