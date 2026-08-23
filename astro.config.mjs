@@ -6,7 +6,8 @@ import emdash from "emdash/astro";
 
 export default defineConfig({
 	output: "server",
-	adapter: cloudflare(),
+	// TODO: Remove this once development is done and the site is ready to be deployed
+	adapter: cloudflare({ imageService: "passthrough" }),
 	image: {
 		layout: "constrained",
 		responsiveStyles: true,
@@ -21,18 +22,24 @@ export default defineConfig({
 		fonts: [
 		{
 			provider: fontProviders.google(),
-			name: "Inter",
+			name: "Plus Jakarta Sans",
 			cssVariable: "--font-body",
 			weights: [400, 500, 600, 700],
 			fallbacks: ["sans-serif"],
 		},
 		{
-			provider: fontProviders.google(),
-			name: "JetBrains Mono",
+			provider: fontProviders.fontsource(),
+			name: "UnifontEX",
 			cssVariable: "--font-mono",
-			weights: [400, 500],
+			weights: [400],
 			fallbacks: ["monospace"],
 		},
+		// {
+		// 	provider: fontProviders.google(),
+		// 	name: "Lobster Two",
+		// 	cssVariable: "--font-calligraphy",
+		// 	weights: [400, 700]
+		// }
 	],
 	devToolbar: { enabled: false },
 });

@@ -1,0 +1,49 @@
+/* Light Theme */
+
+/** Base text colors */
+--cffy-theme-light-a0: #ffffff;
+--cffy-theme-dark-a0: #000000;
+
+/** Theme primary colors */
+--cffy-theme-primary-a0: rgb(93.7% 93.7% 45.1%);
+--cffy-theme-primary-a10: rgb(81.5% 81.5% 38.9%);
+--cffy-theme-primary-a20: rgb(69.6% 69.6% 32.8%);
+--cffy-theme-primary-a30: rgb(58% 58% 26.9%);
+--cffy-theme-primary-a40: rgb(46.9% 46.9% 21.2%);
+--cffy-theme-primary-a50: rgb(36.2% 36.2% 15.8%);
+
+/** Theme surface colors */
+--cffy-theme-surface-a0: rgb(98.4% 94.1% 81.6%);
+--cffy-theme-surface-a10: rgb(93.3% 89.5% 78.4%);
+--cffy-theme-surface-a20: rgb(88.3% 84.9% 75.2%);
+--cffy-theme-surface-a30: rgb(83.3% 80.4% 72%);
+--cffy-theme-surface-a40: rgb(78.4% 76% 68.8%);
+--cffy-theme-surface-a50: rgb(73.6% 71.5% 65.7%);
+
+/** Theme tonal surface colors */
+--cffy-theme-surface-tonal-a0: rgb(97.9% 94.1% 78.4%);
+--cffy-theme-surface-tonal-a10: rgb(92.9% 89.5% 75.5%);
+--cffy-theme-surface-tonal-a20: rgb(87.9% 85% 72.7%);
+--cffy-theme-surface-tonal-a30: rgb(83% 80.4% 69.8%);
+--cffy-theme-surface-tonal-a40: rgb(78.1% 76% 67%);
+--cffy-theme-surface-tonal-a50: rgb(73.3% 71.6% 64.2%);
+
+/** Success colors */
+--cffy-theme-success-a0: #4aff6b;
+--cffy-theme-success-a10: #74ff86;
+--cffy-theme-success-a20: #94ff9d;
+
+/** Warning colors */
+--cffy-theme-warning-a0: #ffac38;
+--cffy-theme-warning-a10: #ffb961;
+--cffy-theme-warning-a20: #ffc681;
+
+/** Danger colors */
+--cffy-theme-danger-a0: #ff6161;
+--cffy-theme-danger-a10: #ff7c79;
+--cffy-theme-danger-a20: #ff9590;
+
+/** Info colors */
+--cffy-theme-info-a0: #61c2ff;
+--cffy-theme-info-a10: #7dccff;
+--cffy-theme-info-a20: #96d5ff;

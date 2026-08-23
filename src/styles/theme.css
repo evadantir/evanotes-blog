@@ -25,6 +25,20 @@
 */
 
 :root {
+  --color-bg: light-dark(#fbf0d0, #121212);
+  --color-bg-subtle: light-dark(#eee4c8, #252525);
+  --color-text: light-dark(#000000, #ffffff);
+  --color-text-secondary: light-dark(#5c5c28, #c0c0a0);
+  --color-muted: light-dark(#73736e, #a0a0a0);
+  --color-border: light-dark(#bcb6a3, #4f4f4f);
+  --color-border-subtle: light-dark(#d7d0b9, #393939);
+  --color-surface: light-dark(#e1d9c0, #393939);
+  --color-brand: light-dark(#787837, #efef73);
+  --color-brand-hover: light-dark(#5c5c28, #f2f394);
+  --color-accent: light-dark(#9e3f70, #ef73b1);
+  --color-accent-hover: light-dark(#7e2f58, #f282b9);
+  --color-on-accent: light-dark(#ffffff, #121212);
+  --font-body: "Plus Jakarta Sans";
 }
 
 .nav-admin {
