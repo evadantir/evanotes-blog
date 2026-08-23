@@ -34,12 +34,12 @@ export default defineConfig({
 			weights: [400],
 			fallbacks: ["monospace"],
 		},
-		{
-			provider: fontProviders.google(),
-			name: "Lobster Two",
-			cssVariable: "--font-calligraphy",
-			weights: [400, 700]
-		}
+		// {
+		// 	provider: fontProviders.google(),
+		// 	name: "Lobster Two",
+		// 	cssVariable: "--font-calligraphy",
+		// 	weights: [400, 700]
+		// }
 	],
 	devToolbar: { enabled: false },
 });
