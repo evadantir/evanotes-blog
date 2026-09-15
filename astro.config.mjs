@@ -24,14 +24,12 @@ export default defineConfig({
 			provider: fontProviders.google(),
 			name: "Plus Jakarta Sans",
 			cssVariable: "--font-body",
-			weights: [400, 500, 600, 700],
 			fallbacks: ["sans-serif"],
 		},
 		{
 			provider: fontProviders.fontsource(),
 			name: "UnifontEX",
 			cssVariable: "--font-mono",
-			weights: [400],
 			fallbacks: ["monospace"],
 		},
 		// {

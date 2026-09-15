@@ -25,7 +25,10 @@
 */
 
 :root {
-  --color-bg: light-dark(#fbf0d0, #121212);
+  --bg-light: url("/img/white_paper_bg.png");
+  --bg-dark: url("/img/black_paper_bg.png");
+  --color-bg: light-dark(url("/img/white_paper_bg.png"), url("/img/black_paper_bg.png"));
+  /* --color-bg: light-dark(#fbf0d0, #121212); */
   --color-bg-subtle: light-dark(#eee4c8, #252525);
   --color-text: light-dark(#000000, #ffffff);
   --color-text-secondary: light-dark(#5c5c28, #c0c0a0);
